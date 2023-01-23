@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ntos.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <NASM Include="service.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sxsisol.cpp" />
+    <ClCompile Include="ldrapi.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="ldrddag.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="ldrdload.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="ldrfind.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="ldrinit.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="ldrmap.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="ldrredirect.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="ldrsnap.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="ldrtls.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="ldrutil.c">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="rtl.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ldr">
+      <UniqueIdentifier>{e847a221-81f3-4fa3-afd1-fe0a58003fbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
